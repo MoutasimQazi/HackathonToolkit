@@ -12,7 +12,7 @@ classifiers = [
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
 ]
-with open('README.txt', 'r', encoding='utf-8') as f:
+with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 with open('CHANGELOG.txt', 'r', encoding='utf-8') as f:
