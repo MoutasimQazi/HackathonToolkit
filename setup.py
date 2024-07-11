@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 classifiers = [
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache License, Version 2.0 ',
+        'License :: OSI Approved :: MIT',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
@@ -27,7 +27,7 @@ setup(
   url='',  # Update with your project's URL
   author='Moutasim Qazi',
   author_email='moutasimqazi@gmail.com',
-  license='Apache License',
+  license='MIT',
   classifiers=classifiers,
   keywords='hackathon , toolkit , python , library', 
   packages=find_packages(),
