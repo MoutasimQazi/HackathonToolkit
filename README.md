@@ -18,5 +18,5 @@ The Hackathon Toolkit is a Python library designed to streamline and accelerate 
 You can install the Hackathon Toolkit via pip:
 
 ```bash
-pip install hackathon-toolkit
+pip install HackathonToolkit
 ```
