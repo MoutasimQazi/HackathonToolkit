@@ -24,7 +24,7 @@ with open('requirements.txt', 'r', encoding='utf-8') as f:
 
 setup(
   name='HackathonToolkit',
-  version='0.0.5',
+  version='0.0.6',
   description='The Hackathon Toolkit simplifies hackathon projects with utilities for setup, API interaction, data handling, ML, visualization, collaboration, and deployment, automating tasks for innovation focus.',
   long_description=long_description,
   long_description_content_type='text/markdown',  
