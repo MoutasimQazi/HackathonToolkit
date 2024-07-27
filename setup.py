@@ -12,11 +12,15 @@ classifiers = [
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
 ]
+
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 with open('CHANGELOG.txt', 'r', encoding='utf-8') as f:
     long_description += '\n\n' + f.read()
+
+with open('requirements.txt', 'r', encoding='utf-8') as f:
+    requirements = f.read().splitlines()
 
 setup(
   name='HackathonToolkit',
@@ -31,5 +35,5 @@ setup(
   classifiers=classifiers,
   keywords='hackathon , toolkit , python , library', 
   packages=find_packages(),
-  install_requires=[''] 
+  install_requires=requirements
 )

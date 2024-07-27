@@ -1,0 +1,16 @@
+flask
+pandas 
+tensorflow
+torch
+transformers
+keras 
+torchvision
+scikit-learn
+seaborn
+matplotlib
+gitpython
+boto3
+google-cloud-container
+google-auth
+bs4
+jedi
